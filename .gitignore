@@ -1,0 +1,17 @@
+# Pulled / third-party target APKs (not for commit)
+targets/
+*.apk
+*.xapk
+*.apks
+
+# Android / Gradle build outputs & local config
+android-app/.gradle/
+android-app/build/
+android-app/*/build/
+android-app/local.properties
+android-app/.idea/
+*.iml
+
+# OS / Editor
+.DS_Store
+Thumbs.db
